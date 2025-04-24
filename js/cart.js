@@ -33,3 +33,5 @@ function removeItem() {
   cartItem.remove();
 }
 removeButton.addEventListener(`click`, removeItem);
+
+

@@ -844,6 +844,62 @@ header .topHeader * {
   color: var(--gray-scale-white) !important;
 }
 /* ====== Product Section End Here ====== */
+/* ====== Pagination Section Start Here ====== */
+.pagination {
+  margin: 40px 0;
+}
+
+.pagination span {
+  margin: 6px;
+  cursor: pointer;
+}
+.pagination .next {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-600);
+  display: inline-block;
+  border-radius: 130px;
+  padding: 8px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  transition: 0.3s;
+  margin: 0 8px;
+  background: var(--gray-scale-gray-–-50);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.pagination .next:focus,
+.pagination .next:hover {
+  background: var(--branding-success);
+  color: var(--gray-scale-white);
+}
+.pagination .next.active {
+  background: var(--branding-success);
+  color: var(--gray-scale-white);
+}
+.pagination .leftPage,
+.pagination .rightPage {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  background: var(--gray-scale-gray-–-50);
+  text-align: center;
+  line-height: 50px;
+  color: var(--gray-scale-gray-–-900);
+  transition: 0.3s;
+  cursor: grab;
+}
+.pagination .leftPage:hover,
+.pagination .rightPage:hover {
+  background: var(--branding-success);
+  color: var(--gray-scale-white);
+}
+/* ====== Pagination Section End Here ====== */
+
 /* ---------- FOOTER START HERE ---------- */
 
 .footer {
@@ -1106,6 +1162,53 @@ header .topHeader * {
   #Breadcrumbs {
     height: 70px;
   }
+  /* ====== Pagination Section Start Here ====== */
+  .pagination {
+    margin: 20px 0;
+    justify-content: center;
+  }
+  .pagination .next {
+    font-size: 12px;
+    padding: 8px;
+    width: 26px;
+    height: 26px;
+    margin: 0 2px;
+  }
+  .pagination .next:focus,
+  .pagination .next:hover {
+    background: var(--branding-success);
+    color: var(--gray-scale-white);
+  }
+  .pagination .next.active {
+    background: var(--branding-success);
+    color: var(--gray-scale-white);
+  }
+  .pagination .leftPage,
+  .pagination .rightPage {
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: var(--gray-scale-gray-–-50);
+    color: var(--gray-scale-gray-–-900);
+    transition: 0.3s;
+    cursor: grab;
+  }
+  .pagination .leftPage,
+  .pagination .rightPage {
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    margin: 0 2px;
+    padding: 0 0 0 0;
+  }
+  .pagination .leftPage:hover,
+  .pagination .rightPage:hover {
+    background: var(--branding-success);
+    color: var(--gray-scale-white);
+  }
+  /* ====== Pagination Section End Here ====== */
   .subscribeArea {
     padding: 15px 0;
   }
