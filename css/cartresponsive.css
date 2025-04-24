@@ -1,0 +1,121 @@
+@media (max-width: 767px) {
+  #Breadcrumbs {
+    height: 70px;
+  }
+  #cart h1 {
+    margin: 25px 0 22px;
+  }
+  #cart .cartProduct {
+    width: 100%;
+  }
+  #cart .productSection .cartProduct .table thead tr th {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: var(--gray-scale-gray-–-500);
+    padding: 16px 4px;
+  }
+  tr td img {
+    width: 50px;
+    height: auto;
+    max-width: 100%;
+  }
+  #cart .productSection .cartProduct .table thead tr .sub {
+    display: none;
+  }
+  #cart .cartProduct .table tbody tr td span {
+    font-size: 14px;
+  }
+  #cart .cartProduct .table tbody tr .price {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  #cart .cartProduct .table tbody tr .subtotal {
+    display: none;
+  }
+  #cart .cartProduct .table tbody td .remove-btn {
+    display: none;
+  }
+  #cart .cartProduct .table tbody tr .quantity-control {
+    padding: 0px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    border: none;
+  }
+  #cart .cartProduct .table tbody tr .quantity-control .quantity-btn {
+    width: 24px;
+    height: 24px;
+    border-radius: 170px;
+    line-height: 24px;
+    text-align: center;
+  }
+  #cart .cartProduct .table tbody tr .quantity-control .quantity-input {
+    font-size: 14px;
+    width: 30px;
+  }
+  #cart .cartProduct .btn {
+    border-radius: 8px;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  /* ////// cupon */
+  #cupon {
+    margin: 14px 0 20px;
+  }
+  #cupon .cupon .cuponCnt {
+    padding: 10px;
+    height: 72px;
+  }
+  #cupon .cupon .cuponCnt h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--gray-scale-gray-–-900);
+    width: 16%;
+    display: none;
+  }
+  #cupon .cupon .cuponCnt input {
+    padding: 14px 24px;
+    width: 100%;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #cupon .cupon .cuponCnt button {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+  /* ///// cupon end */
+  /* ////// cart total */
+  .cartTotal {
+    height: 100%;
+    padding: 14px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .cartTotal .cart-total h5 {
+    font-size: 18px;
+  }
+  .cartTotal .cart-total .total {
+    padding: 12px 0px;
+  }
+  .cartTotal .cart-total .btn {
+    padding: 12px 20px;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+}

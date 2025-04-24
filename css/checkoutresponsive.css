@@ -1,0 +1,137 @@
+@media (max-width: 767px) {
+  #Breadcrumbs {
+    height: 70px;
+  }
+  .information {
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  .informationForm {
+    margin: 6px 0;
+    padding-bottom: 22px;
+  }
+  .information .informationHeader h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .information .informationForm form {
+    margin-bottom: 16px;
+  }
+  .information .informationForm form input {
+    font-size: 12px;
+    padding: 10px 14px;
+  }
+  .country select {
+    height: 39px;
+    padding: 0 14px;
+    font-size: 12px;
+  }
+  .country select option {
+    font-size: 10px;
+  }
+  .information .informationForm .different input {
+    width: 18px;
+    height: 18px;
+  }
+  .information .informationForm .different label {
+    font-size: 12px;
+  }
+  /* /// .information end */
+  .information .additionalInfo {
+    margin: 8px 0 0 0;
+  }
+  .information .additionalInfo h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .information .additionalInfo .textarea label {
+    font-size: 12px;
+  }
+  .information .additionalInfo .textarea textarea {
+    font-size: 14px;
+    padding: 10px 14px;
+    height: 100px;
+  }
+  /* Infomation END */
+  .summery {
+    padding: 16px;
+    height: 100%;
+    width: 96%;
+    margin: 20px auto;
+  }
+  .summery .cart-total h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .payment {
+    margin: 8px 0;
+  }
+  .payment input {
+    width: 16px;
+    height: 16px;
+  }
+  .payment label {
+    font-size: 16px;
+  }
+  .summery .cart-total .btn {
+    width: 100%;
+    justify-content: center;
+    margin-top: 8px;
+  }
+
+  /* footer ////// */
+  .subscribeArea {
+    padding: 15px 0;
+  }
+  .subcribeArea .subcribeCnt h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .subcribeArea .subcribeCnt p {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+  .social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    color: var(--gren-gray-scale-300);
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  .footer {
+    margin-bottom: 40px;
+  }
+  .footer-bottom .copyright p {
+    margin: 20px 0;
+  }
+  .mainFooter ul li {
+    margin: 0 0 3px 0;
+  }
+  .mainFooter h5 {
+    margin: 0 0 3px 0;
+  }
+  .mainFooter .footerInsta img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .footer-bottom {
+    padding-top: 0px;
+    margin-top: 6px;
+  }
+  .footer p {
+    margin: 6px 0;
+  }
+  .footer ul li {
+    margin-bottom: 2px;
+  }
+}

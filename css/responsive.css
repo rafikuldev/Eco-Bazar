@@ -1,0 +1,299 @@
+@media (max-width: 767px) {
+  /* === Banner Start === */
+  #banner .slide {
+    max-height: 687px;
+    height: 100%;
+  }
+  #banner .slide .bannerImg {
+    padding-right: 0px;
+  }
+  #banner .slide p {
+    font-size: 12px;
+  }
+  #banner .slide h1 {
+    font-size: 30px;
+    margin: 8px 0 10px 0;
+  }
+  #banner .slide h5 {
+    font-size: 16px;
+  }
+  .slick-dots {
+    display: none;
+    opacity: hidden;
+  }
+  #banner .leftArrow,
+  #banner .rightArrow {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+  }
+  .leftArrow,
+  .rightArrow {
+    color: var(--branding-success);
+    font-size: 20px;
+    border: 1px solid var(--branding-success);
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    border-radius: 50%;
+  }
+  /* === Banner End === */
+  /* === Our Facilitys Start === */
+  #ourFacilitys {
+    margin: 5px 0 35px 0;
+  }
+  #ourFacilitys .shipping {
+    width: 95%;
+  }
+  #ourFacilitys :nth-child(1n) {
+    border-radius: px !important;
+  }
+  #ourFacilitys :nth-child(2n) {
+    border-radius: 8px !important;
+  }
+  #ourFacilitys :nth-child(3n) {
+    border-radius: 8px !important;
+  }
+  #ourFacilitys :nth-child(4n) {
+    border-radius: 8px !important;
+  }
+  #ourFacilitys .shipping {
+    padding: 20px;
+    border-radius: 8px 0 0 8px;
+    margin: 5px 5px;
+  }
+  #ourFacilitys .shipping span {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+  }
+  #ourFacilitys .shipping h5 {
+    font-size: 16px;
+    margin: 16px 0 4px 0;
+  }
+  #ourFacilitys .shipping p {
+    font-size: 12px;
+  }
+  /* === Our Facilitys Ends === */
+  /* === Featured Products Start  === */
+  #featuredProducts {
+    padding: 0 0 40px 0;
+  }
+  #featuredProducts h2 {
+    font-size: 25px;
+  }
+  #featuredProducts .categoryList {
+    gap: 10px;
+    margin: 24px 0 50px 0;
+  }
+  .categoryList li a {
+    font-size: 14px;
+  }
+  .categoryList li.active {
+    padding: 0px 12px 3px 12px;
+    box-shadow: none;
+    background: transparent;
+    border-bottom: 1px solid var(--branding-success);
+  }
+  .categoryList li a::before {
+    display: none;
+  }
+  .productCard .content .addToCart {
+    right: 2px;
+  }
+  .fetureBannerImg {
+    margin: 0;
+  }
+  .fBanner {
+    /* display: flex; */
+    gap: 15px;
+  }
+  .featuredBanner {
+    margin: 0 0 20px 0;
+  }
+  /* === Featured Products Start Ends === */
+  .bestDeal {
+    padding: 40px 0;
+  }
+  .bestDeal h2 {
+    font-size: 35px;
+  }
+  .featuredProductsSlider {
+    padding: 20px 0 80px;
+  }
+  .featuredProductsSlider h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .featuredProductsSlider .leftArrow,
+  .featuredProductsSlider .rightArrow {
+    top: 90%;
+  }
+  .featuredProductsSlider .leftArrow {
+    left: 20%;
+  }
+  .featuredProductsSlider .rightArrow {
+    right: 20%;
+  }
+  .testimonial .leftArrow,
+  .testimonial .rightArrow {
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+  }
+  .testimonial {
+    padding: 50px 0;
+  }
+  .testimonial h2 {
+    margin-bottom: 33px;
+    font-size: 30px;
+  }
+  .testimonialCard .content {
+    padding: 20px 10px;
+  }
+  .testimonialCard .content img {
+    width: 20px;
+    height: 20px;
+  }
+  .testimonialCard .content p {
+    font-size: 13px;
+    margin-top: 14px;
+  }
+  .testimonialCard .thumbnail p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .testimonialCard .thumbnail span {
+    font-size: 12px;
+  }
+  .testimonialCard .thumbnail img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  /* Video Starts */
+  .videoPlayer {
+    position: relative;
+    transform: translateY(0);
+  }
+  .videoPlayer .videoContentText {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .videoPlayer .videoContentText p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--gray-scale-white);
+  }
+  .videoPlayer .videoContentText h2 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--gray-scale-white);
+    margin: 4px 0 6px 0;
+  }
+  .videoPlayer .videoContentText a img {
+    width: 100%;
+    max-width: 30px;
+  }
+  /* Video Ends */
+  .subcribeArea {
+    margin-top: 10px;
+  }
+  .latestNewsSection h2 {
+    padding: 20px 0;
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+  .latestNewsSection .atestNewsCnt {
+    transform: translateY(0);
+  }
+  .latestNewsSection .latestNewsCard {
+    padding: 14px;
+    margin: 0 0 10px 0;
+  }
+  .latestNewsSection .latestNewsCard h3 {
+    font-size: 16px;
+    margin: 12px 0 4px 0;
+  }
+  .latestNewsSection .latestNewsCard p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .subcribeArea {
+    transform: translateY(0);
+  }
+  .subcribeArea .subcribeLogo img {
+    margin-bottom: 20px;
+  }
+  .subcribeArea::after {
+    display: none;
+  }
+  .subcribeArea .subcribeCnt h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0 0 0 0;
+  }
+  .subcribeArea .subcribeCnt p {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .subcribeBtn {
+    margin-bottom: 10px;
+  }
+  .subcribeBtn form button {
+    right: 0;
+  }
+  .social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    color: var(--gren-gray-scale-300);
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  /* ----- CSS for the footer section ----- */
+  .footer {
+    margin-bottom: 80px;
+  }
+  .footer-bottom .copyright p {
+    margin: 20px 0;
+  }
+  .mainFooter ul li {
+    margin: 0 0 3px 0;
+  }
+  .mainFooter h5 {
+    margin: 0 0 3px 0;
+  }
+  .mainFooter .footerInsta img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .footer-bottom {
+    padding-top: -7px;
+    margin-top: 16px;
+  }
+  .footer p {
+    margin: 6px 0;
+  }
+  /* ----- CSS for the footer section ----- */
+}
