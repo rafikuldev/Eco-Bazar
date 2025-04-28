@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eco Bazar</title>
+  <meta name="title" content="Ecobazar Group is South Asia's leading eCommerce platform,">
+  <meta name="description" content="Online Shopping in Bangladesh: Order Now from Eco Bazar">
+  <meta name="name" content="Rafikul Islam">
+  <link rel="shortcut icon" href="./img/Fav-icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/error.css">
+</head>
+
+<body>
+
+
+  <main>
+    <div class="container">
+      <div class="mainBox">
+        <div class="form-box login">
+          <form action="#">
+            <h1>Login</h1>
+            <div class="input-box">
+              <input type="text" placeholder="Username" required>
+              <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+              <input type="password" placeholder="Password" required>
+              <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="forgot-link">
+              <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <p>or login with social platforms</p>
+            <div class="social-icons">
+              <a href="#"><i class='bx bxl-google'></i></a>
+              <a href="#"><i class='bx bxl-facebook'></i></a>
+              <a href="#"><i class='bx bxl-github'></i></a>
+              <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+          </form>
+        </div>
+
+        <div class="form-box register">
+          <form action="#">
+            <h1>Registration</h1>
+            <div class="input-box">
+              <input type="text" placeholder="Username" required>
+              <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+              <input type="email" placeholder="Email" required>
+              <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+              <input type="password" placeholder="Password" required>
+              <i class='bx bxs-lock-alt'></i>
+            </div>
+            <button type="submit" class="btn">Register</button>
+            <p>or register with social platforms</p>
+            <div class="social-icons">
+              <a href="#"><i class='bx bxl-google'></i></a>
+              <a href="#"><i class='bx bxl-facebook'></i></a>
+              <a href="#"><i class='bx bxl-github'></i></a>
+              <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+          </form>
+        </div>
+
+        <div class="toggle-box">
+          <div class="toggle-panel toggle-left">
+            <h1>Hello, Welcome!</h1>
+            <p>Don't have an account?</p>
+            <button class="btn register-btn">Register</button>
+          </div>
+
+          <div class="toggle-panel toggle-right">
+            <h1>Welcome Back!</h1>
+            <p>Already have an account?</p>
+            <button class="btn login-btn">Login</button>
+          </div>
+        </div>
+      </div>>
+    </div>
+
+  </main>
+
+
+  <!-- ------------- FOOTER -------------  -->
+  <footer class="footer">
+    <div class="">
+      <!-- ----- Mobile Footer ----- -->
+      <div class="nav__menu d-lg-none">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="./index.html" class="nav__link active-link">
+              <i class='bx bx-home-alt nav__icon'></i>
+              <span class="nav__name">Home</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="./shop.html" class="nav__link">
+              <i class='bx bx-store-alt nav__icon'></i>
+              <span class="nav__name">Shop</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class='bx bx-cart  nav__icon'></i>
+              <span class="nav__name">Cart</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class='bx bx-user nav__icon'></i>
+              <span class="nav__name">Profile</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- ----- Mobile Footer End ----- -->
+  </footer>
+
+  <!-- ------------- FOOTER END -------------  -->
+
+
+  <script>
+
+    const container = document.querySelector('.container');
+    const registerBtn = document.querySelector('.register-btn');
+    const loginBtn = document.querySelector('.login-btn');
+
+    registerBtn.addEventListener('click', () => {
+      container.classList.add('active');
+    })
+
+    loginBtn.addEventListener('click', () => {
+      container.classList.remove('active');
+    })
+
+  </script>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
