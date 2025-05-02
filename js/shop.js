@@ -6,18 +6,25 @@ OmRangeSlider.init({
 
 
 
+// cursor animation
+var main = document.querySelector('body');
+var cursor = document.querySelector('.cursor');
 
-const navbar = document.querySelector('footer.nav__menu');
-const navlinks = Array.from(navbar.querySelectorAll('.nav__link'));
-const canvas = document.querySelector('html,body');
+main.addEventListener('mousemove', function (dets) {
+  gsap.to(cursor, {
+    x: dets.clientX - 0, // Subtract half of cursor width (40px/2)
+    y: dets.clientY - 0, // Subtract half of cursor height (40px/2)
+    duration: 1,
+    ease: 'back.out',
+  });
+});
 
-const activeNavLink = e => {
-  //* REMOVE ALL ACTIVE CLASS
-  navlinks.map(link => link.classList.remove('active-link'));
-  //*ADD CLASS
-  e.target.classList.add('active-link');
-};
-
-navlinks.map(navLink => {
-  navLink.addEventListener('click', activeNavLink);
+// Example hover effect
+document.querySelectorAll('a, button').forEach(el => {
+  el.addEventListener('mouseenter', () => {
+    gsap.to('.cursor', { scale: 1.5 });
+  });
+  el.addEventListener('mouseleave', () => {
+    gsap.to('.cursor', { scale: 1 });
+  });
 });
