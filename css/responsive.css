@@ -17,10 +17,6 @@
   #banner .slide h5 {
     font-size: 16px;
   }
-  .slick-dots {
-    display: none;
-    opacity: hidden;
-  }
   #banner .leftArrow,
   #banner .rightArrow {
     position: absolute;
@@ -80,6 +76,10 @@
   #featuredProducts {
     padding: 0 0 40px 0;
   }
+  #featuredProducts .allProducts {
+
+  }
+
   #featuredProducts h2 {
     font-size: 25px;
   }
@@ -112,7 +112,7 @@
   .featuredBanner {
     margin: 0 0 20px 0;
   }
-  /* === Featured Products Start Ends === */
+  /* === Featured Products Ends === */
   .bestDeal {
     padding: 40px 0;
   }
@@ -270,7 +270,7 @@
   }
   /* ----- CSS for the footer section ----- */
   .footer {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
   .footer-bottom .copyright p {
     margin: 20px 0;

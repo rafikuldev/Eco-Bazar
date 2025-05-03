@@ -6,6 +6,14 @@ $(document).ready(function () {
     prevArrow: `#banner .leftArrow`,
     nextArrow: `#banner .rightArrow`,
     dots: true,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          dots: false,
+        },
+      },
+    ],
   });
   // banner End
 

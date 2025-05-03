@@ -1,4 +1,42 @@
 $(document).ready(function () {
+  $('.bannerSlider').slick({
+    arows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    fade: true,
+    cssEase: 'linear',
+    arrows: false,
+    asNavFor: '.minibannerSlider',
+  });
+  $('.minibannerSlider').slick({
+    asNavFor: '.bannerSlider',
+    vertical: true,
+    verticalSwiping: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: false,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    cssEase: 'linear',
+    focusOnSelect: true,
+    prevArrow: ` .slick-prev`,
+    nextArrow: ` .slick-next`,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          vertical: false,
+          verticalSwiping: false,
+          autoplaySpeed: 2000,
+          arrows: false,
+          dots: true,
+        },
+      },
+    ],
+  });
   $('.featureSlider').slick({
     arows: true,
     autoplay: true,
@@ -49,9 +87,6 @@ $(document).ready(function () {
       $('.quantity-input').val(currentVal - 1);
     }
   });
-
-
-
 });
 var main = document.querySelector('body');
 var cursor = document.querySelector('.cursor');

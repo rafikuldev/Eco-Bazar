@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div class="cursor"></div>
+  <div class="cursor d-lg-block d-none"></div>
   <header>
     <!-- === Top Header Starts === -->
     <div class="topHeader">
@@ -172,9 +172,9 @@
               </span>
             </div>
             <!-- filterBtn end -->
-            <div class="categories">
+            <div class="categories ">
               <div class="row align-items-center categoreBtn">
-                <div class="col-6 radioParent"><a type="button">All Categories</a></div>
+                <div class="col-6 radioParent"><a dropdown-toggle" type="button">All Categories</a></div>
                 <div class="col-6 text-end">
                   <iconify-icon icon="ep:arrow-down-bold"></iconify-icon>
                 </div>
@@ -188,7 +188,7 @@
                     <label for="All">All(52)<span>(134)</span></label>
                   </li>
                   <li class="d-flex align-items-center freshFruit">
-                    <input type="radio" id="Fresh" name="Categories">
+                    <input class="inputFild" type="radio" id="Fresh" name="Categories">
                     <label for="Fresh">Fresh Fruit (25)<span>(134)</span></label>
                   </li>
                   <li class="d-flex align-items-center vegetable">
@@ -221,7 +221,7 @@
               <!-- ------------------ Price Range Start Here ------------ -->
               <div class="row align-items-center priceRange">
                 <!-- <input type="range" name="pieces" id="inputPieces" multiple value="50,1500" /> -->
-                <div class="priceBox">
+                <div class="priceBox position-relative">
                   <div class="col-12 d-flex justify-content-between priceBtn">
                     <span>Price</span>
                     <span>
@@ -231,7 +231,7 @@
                   <div class="priceRangeWrapper">
                     <div class="priceRangeOpen">
                       <div class="range">
-                        <input type="range" name="pieces" id="inputPieces" max="2000" value="150" multiple="2500">
+                        <input type="range" name="pieces" id="inputPieces" max="2000" value="50" multiple="">
                       </div>
                       <div class="price-input-container">
                         <div class="price-input">
