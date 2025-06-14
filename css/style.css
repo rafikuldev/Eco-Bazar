@@ -553,9 +553,6 @@ header .topHeader * {
   top: 16px;
   right: 16px;
   /* transform: translateX(150%); */
-  position: absolute;
-  top: 16px;
-  right: 16px;
   transition: 0.5s;
 }
 .productCard .thumbnail .quickLinks li {
@@ -1163,8 +1160,8 @@ header .topHeader * {
   transition: 0.4s;
   box-shadow: 0 0 12px 0 rgba(57, 75, 57, 0.975);
   z-index: 9999;
-  backdrop-filter: blur(10px) saturate(100%);
-  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px) saturate(100%);
+  background: rgba(255, 255, 255, 0.6);
 }
 .nav__list,
 .nav__link {
