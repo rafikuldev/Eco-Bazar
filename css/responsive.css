@@ -72,6 +72,14 @@
     font-size: 12px;
   }
   /* === Our Facilitys Ends === */
+  .productCard .content a {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .productCard .content strong {
+    font-weight: 500;
+    font-size: 14px;
+  }
   /* === Featured Products Start  === */
   #featuredProducts {
     padding: 0 0 40px 0;
