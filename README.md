@@ -6,7 +6,7 @@
 
 Responsive Ecommerce Website Design Using HTML, CSS, and Jquery
 
-## 🔗 [Demo](https://rafikulislamrafi.github.io/Eco-Bazar/)
+## 🔗 [Demo](https://rafikuldev.github.io/Eco-Bazar/)
 
 # Hi, I'm Rafikul! 👋
 
